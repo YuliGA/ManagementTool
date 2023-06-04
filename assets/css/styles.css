@@ -50,11 +50,12 @@ table {
 /*---------------------------------------------------*/
 
 main {
-  color: gainsboro;
+	display: grid;
+	padding: 1rem;
   margin: 0 auto;
-  max-width: 1000px;
-  min-height: 100vh;
-  display: grid;
+  max-width: 1200px;
+	grid-template-columns: 100%;
+	grid-template-rows: 80px 1fr 80px;
 }
 
 img {
@@ -62,4 +63,26 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+
+nav {
+  background-color: cornflowerblue;
+}
+
+section {
+	display: grid;
+  margin: 0 auto;
+  background-color: indigo;
+	padding: 1rem;
+	grid-gap: 1rem;
+	grid-template-columns: 1fr 250px 250px 250px;
+	grid-template-rows: 250px 250px;
+}
+
+.user-resume {
+  grid-row: 1 / 3;
+}
+
+footer {
+ background-color: darkorchid;
 }
