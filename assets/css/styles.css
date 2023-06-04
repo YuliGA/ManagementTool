@@ -81,6 +81,13 @@ section {
 
 .user-resume {
   grid-row: 1 / 3;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.menu-card {
+  background-color: white;
+	border-radius: 10px;
 }
 
 footer {
