@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -72,7 +72,7 @@ nav {
 section {
 	display: grid;
   margin: 0 auto;
-  background-color: indigo;
+  background-color: white;
 	padding: 1rem;
 	grid-gap: 1rem;
 	grid-template-columns: 1fr 250px 250px 250px;
@@ -83,6 +83,8 @@ section {
   grid-row: 1 / 3;
 	background-color: white;
 	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
 }
 
 .card {
@@ -90,16 +92,14 @@ section {
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
+	padding: 30px 50px 70px;
+	text-align: center;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.logo-card {
-	margin: 10px;
-	max-width: 50px;
-	max-height: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  background-color: #e7e9eb;
+  color: blue;
 }
 
 footer {
