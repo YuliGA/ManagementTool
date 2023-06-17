@@ -225,6 +225,49 @@ td {
 	max-width: 25px;
 }
 
+/* Collaborator individual */
+
+.collaborator-first-section {
+	display: grid;
+	padding: 1rem 2rem 1rem 2rem;
+	grid-gap: 1rem;
+	grid-template-columns: 5% 95%;
+	grid-template-rows: 50px;
+}
+
+.form-container{
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: 10% 35% 10% 35%;
+	grid-template-rows: 10% 10% 10% 10% 10% 15%;
+	width: 80%;
+	border-radius: 10px;
+	background-color: #eceef2;
+	margin: auto;
+	padding: 1rem;
+	font-family: 'Open sans';
+}
+
+.subtitulo{
+	grid-column: 1 / 5;
+}
+
+.buttonAddForm{
+	border: none;
+	background-color: #386dbd;
+	font-family:'Ubuntu Condensed';
+	color: white;
+	border-radius: 30px;
+	padding: 12px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	grid-column: 4 / 5;
+	max-width: 100px;
+}
+
 /* Footer */
 
 footer {

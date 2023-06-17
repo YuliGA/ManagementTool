@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Collaborators</title>
+    <meta charset=“utf-8”>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+
+  <body>
+    <main>
+     <nav>
+       <div class="navegacion">
+           <a href="../ManagerTool/index.html"><img class="logo" src="assets/images/logo.png"></img></a>
+     </nav>
+
+     <section class="collaborators-body">
+       <div class="collaborator-first-section">
+         <div class="arrow">
+           <a href="../ManagerTool/collaborators.html"><img class="back-arrow" src="assets/images/back-arrow.png"></a>
+         </div>
+         <div>
+           <h1>Collaborator</h1>
+         </div>
+       </div>
+
+    <form class="form-container" method="post">
+        <h3 class="subtitulo">Datos básicos</h3>
+        <label for="collaborator_id">Id:</label>
+        <input type="number" name="collaborator_id" id="collaborator_id" required>
+        <label for="collaborator_name">Full name:</label>
+        <input name="collaborator_name" id="collaborator_name" required>
+        <h3 class="subtitulo">Datos laborales</h3>
+        <label for="collaborator_role">Position:</label>
+        <input name="collaborator_role" id="collaborator_role" required>
+        <label for="collaborator_seniority">Seniority:</label>
+        <input name="collaborator_seniority" id="collaborator_seniority" required>
+        <label for="collaborator_team">Team:</label>
+        <input name="collaborator_team" id="collaborator_team" required>
+        <label for="collaborator_salary">Salary:</label>
+        <input type="number" name="collaborator_salary" id="collaborator_salary" required>
+        <input class="buttonAddForm" type="submit" value="Add">
+    </form>
+
+  </section>
+
+       <footer></footer>
+      </main>
+    </body>
+  <html>
